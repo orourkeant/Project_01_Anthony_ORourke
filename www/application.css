@@ -1,0 +1,115 @@
+body{       margin:0 auto; 
+            background:#F0F0F0;
+}
+h1{font-family: 'Montserrat', sans-serif;
+    color: #F0F0F0;
+    margin: 0;
+}
+div#nav{    float: left;    
+            width: 100%;
+            background:  #707a8a;
+            margin: 0;
+            padding: 0;
+}
+div#navlogo{   float: left;
+            width: 25%;
+            margin-left: 30px;
+            margin-top: 8px;
+            margin-bottom: 6px;
+}
+div#navlogo img{    height: 40px;
+}
+div#linktext{   float: right;
+                margin-right: 60px;
+}
+.montserrat{    font-family: 'Montserrat', sans-serif;
+                color: #F0F0F0;
+                transform: scale(1, .8);
+                font-size: 75%;
+
+}
+div#nav li{ list-style-type: none;
+            display: inline;
+            padding-left: 15px;
+}
+div#nav a{  color: white;       
+            text-decoration:none;
+}
+
+#main{  background: white;
+        margin: 0;
+}
+
+div#mainlogo{width: 100%;}
+
+div#mainlogo img{   display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    height: 150px;
+}
+
+div#heroimage{width: 100%}
+
+div#heroimage img{  display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    height: 660px;
+
+}
+.centeredtext{  position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);   
+                font-family: 'Montserrat', sans-serif;
+                color: #F0F0F0;
+                /*transform: scale(1, .8);*/
+                font-size: 200%;
+                text-shadow: 2px 2px 2px grey;
+}
+div#subherotext{width: 100%;
+                margin-top: 50px;
+}
+
+div#subherotext p{  text-align: center;
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: bold;
+                    color: #5C5B5B;
+                    font-size: 150%;
+
+}
+
+#footer{    float: left;    
+            width: 100%;
+            background:  #707a8a;
+            margin: 0;
+}
+div#footerlogo{     float: left;
+                    width: 25%;
+                    margin-left: 40px;
+                    margin-top: 24px;
+                    margin-bottom: 18px;
+}
+div#footericons{ width:100%;
+
+}
+div#footerlogo img{height: 60px;}
+div#footericons img{height: 20px;}
+div#footertext{margin-top: 30px;
+                padding: 0;
+}
+div#footertext p{   width: 400px;
+                    margin: auto;
+                    padding-left: 140px;
+}
+
+div#footer ul{  width: 150px;
+                margin: auto;
+                padding: 0;
+}
+div#footer li{  display: inline-block;
+                list-style-type: none;
+                padding-left: 15px;
+}
+div#footer a{   color: white;       
+                text-decoration:none;
+}
