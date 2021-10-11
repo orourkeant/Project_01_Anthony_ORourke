@@ -179,24 +179,49 @@ div#signtext p{ font-family: 'Montserrat', sans-serif;
 }
 
 div#fourboxes{      float: left;
-                    width: 100%;
+                    width: 100%;    
 }
 
 div#topleftbox{     float: left;
                     width:50%;
+                    margin-top: 20px;
 }
 
 div#toprightbox{    float: right;
                     width: 50%;
+                    margin-top: 20px;
 }
 
 div#bottomleftbox{  float: left;
                     width: 50%;
+                    margin-top: 20px;
 }
 
 div#bottomrightbox{ float: right;
-                    width: 50%;
+                    width: 50%;                    
+                    margin-top: 20px;
 }
+
+div#fourboxes p{font-family: 'Montserrat', sans-serif;
+                color: #5C5B5B;
+                font-size: 100%;
+                text-align: center;
+}
+div#fourboxes p span{font-weight: bold;}
+
+div#closingtext{width: 100%;
+                float: left; 
+                margin-bottom: 50px;
+}
+
+div#closingtext p{  margin-top: 50px;
+                    font-family: 'Montserrat', sans-serif;
+                    color: #5C5B5B;
+                    font-size: 100%;
+                    text-align: center;
+}
+
+div#closingtext p span{ font-size: 130%;}
 
 /*footer*/
 
