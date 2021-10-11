@@ -223,6 +223,39 @@ div#closingtext p{  margin-top: 50px;
 
 div#closingtext p span{ font-size: 130%;}
 
+/*Contact Page*/
+
+section#contactmessage h2{  margin-top: 30px;
+                            font-family: 'Montserrat', sans-serif;
+                            color: #5C5B5B;
+                            font-size: 150%;
+                            text-align: center;
+                            font-weight: lighter;
+}
+
+section#contactdetails{ margin-left: 300px;
+                        margin-top: 50px;
+}
+
+section#contactdetails h2{  font-family: 'Montserrat', sans-serif;
+                            color: #5C5B5B;
+                            font-size: 100%;
+                            text-align: left;
+                            font-weight: bold;
+
+}
+
+section#contactdetails p{   font-family: 'Montserrat', sans-serif;
+                            color: #5C5B5B;
+                            font-size: 100%;
+                            text-align: left;
+                            font-weight: lighter;
+}
+
+section#contactdetails img{padding-top: 50px;
+                            padding-bottom: 50px;
+}
+
 /*footer*/
 
 #footer{    float: left;    
