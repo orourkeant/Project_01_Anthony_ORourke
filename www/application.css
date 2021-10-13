@@ -256,7 +256,99 @@ section#contactdetails img{padding-top: 50px;
                             padding-bottom: 50px;
 }
 
+section#contactform{width: 100%;}
+
+section#contactform div{margin: auto;
+                        width: 600px;
+
+}
+
+section#contactform h2{ text-align: center;
+                        margin-top: 30px;
+                        font-family: 'Montserrat', sans-serif;
+                        color: #5C5B5B;
+                        font-size: 150%;
+                        text-align: center;
+                        font-weight: lighter;
+
+} 
+form#form label{font-family: 'Montserrat', sans-serif;
+                color: #5C5B5B;
+                font-size: 75%;
+                font-weight: lighter;
+                margin-bottom: 10px;
+}
+
+textarea#message{   border: 0;
+                    background-color: #C5CACF;
+                    width: 600px;
+                    margin-top: 10px;
+                    color: white;
+                    text-align: left;
+    
+}
+
+form#form input{border: 0;
+                background-color: #C5CACF;
+                width: 600px;
+                height: 30px;
+                margin-top: 10px;
+}
+
+
+form#form button{   width: 180px;
+                    height: 45px;
+                    background-color: #6A7B8B;
+                    color: white;
+                    border-style: none;
+                    border-radius: 2px;
+                    box-shadow: 2px 2px 2px #5C5B5B;
+                    display: block;
+                    margin: auto;
+                    margin-top: 30px;
+                    margin-bottom: 75px;
+}
+/*            <div class="popup">
+        <img src="Assets/logo_dark.png">
+        <h2>MERCI</h2>
+        <p>Votre message a bien été envoyé !</p>
+        <p>Nous essaierons d’y répondre au mieux dans les plus brefs<br>
+            délais. À bientot chez Mr.Coffee
+        </p>
+        <button id="popupdismissbutton">FERMER</button>
+    </div>
+*/
+div.popup{  visibility: hidden;
+            width: 1000px;
+            border: 1px 5C5B5B;
+            border-style:solid;
+            z-index: 100;
+            display: inline-block;
+            position: absolute;
+            background-color: white;
+            text-align: center;
+            margin: 400px auto auto auto;
+}
+
+div.popup img{  height: 100px;
+                float: left;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+  }
+
 /*footer*/
+
 
 #footer{    float: left;    
             width: 100%;

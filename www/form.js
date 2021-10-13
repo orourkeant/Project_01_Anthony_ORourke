@@ -1,10 +1,15 @@
-let validated = true;
+let validated = false;
 
 window.onload = function formFunction() {
   //console.log('formFunction called!');
-  document.getElementById("formbutton").addEventListener("click", function() {
+  document.getElementById("message").addEventListener('click', function(){clearTextArea()});
+  document.getElementById("formbutton").addEventListener('click', function() {
     getInput();
   });
+}
+
+function clearTextArea(){
+  document.getElementById("message").value = "";
 }
 
 function getInput(){
@@ -26,18 +31,28 @@ function getInput(){
 }
 
 function Validateform(sname, fname, tnumber, email, message){
-  let valid = false;
+  
 
   if(sname === '' || fname === '' || email === '' || message === ''){
     console.log('empty fields');
-    valid = false;
+    validated = false;
   }else{
-    valid = true;
+    validated = true;
     //open the popup window and send variables
-    clearForm();
+    function myFunction() {
+      var popup = document.getElementById("myPopup");
+      popup.classList.toggle("show");
+      logFormVariables(sname, fname, tnumber, email, message)
+      clearForm();
   }
 }
-
+function logFormVariables(sname, fname, tnumber, email, message){
+  console.log(sname);
+  console.log(fname);
+  console.log(tnumber);
+  console.log(email);
+  console.log(message);
+}
 function clearForm(){
   document.getElementById('sname').value = "";
   document.getElementById('fname').value = "";
